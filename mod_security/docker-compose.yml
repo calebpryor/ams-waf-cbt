@@ -1,0 +1,11 @@
+version: '1'
+services:
+  dispatcher:
+    environment:
+     - DISP_VER=4.3.6
+    image: pryor/aem-dispatcher-modsec-testing:rockyllinux8
+    ports:
+    - "80:80"
+    volumes:
+      - ./activated_rules/:/etc/httpd/modsecurity.d/activated_rules/
+      - ./available_rules/:/etc/httpd/modsecurity.d/available_rules/

@@ -1,0 +1,20 @@
+/farms {
+  /wideopenfarm {
+    /clientheaders {
+      "*"
+    }
+    /virtualhosts {
+      "*"
+    }
+    /renders {
+      /rend01 {
+        /hostname "127.0.0.1"
+        /port "4503"
+        /timeout "0"
+      }
+    }
+    /filter {
+      /default-deny { /type "allow" /url "*" }
+    }
+  }
+}
