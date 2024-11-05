@@ -55,3 +55,19 @@ Content-Type: text/html; charset=UTF-8
 ```
 
 You can see it's responding and showing a 200 response code.
+
+# Proper process
+
+Consider the WAF as a necktie around your website.  It can keep bugs out of your shirt if snug enough but too tight and you cut off the vitals required to stay alive.  Let's keep your site healthy and alive while keeping the bugs out.
+
+## What's good traffic?
+
+If you don't know what you look like in the mirror you won't recognize the good guys from the bad ones.
+
+Start by crawling your site and normalizing the urls.  Generate a list of what good traffic to your site would look like.
+
+We want to create a script or health check that verifies that good traffic isn't getting blocked by the WAF.  Each dev who's writing WAF rules is going to want reassurance that their potent rule doesn't block good traffic.
+
+Here is an [example python script](crawler.py) that can crawl a website, scrape and normalize the URIs to help you get a fingerprint a site
+
+Modify the script and update the URL 
