@@ -51,3 +51,7 @@ git clone https://github.com/calebpryor/ams-waf-cbt.git
 ### Download
 
 You can download and extract [this zip](https://github.com/calebpryor/ams-waf-cbt/archive/refs/heads/main.zip)
+
+# Start the courses
+
+[Course 1](../workstation-setup/README.md)
