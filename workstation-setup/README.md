@@ -54,4 +54,4 @@ You can download and extract [this zip](https://github.com/calebpryor/ams-waf-cb
 
 # Start the courses
 
-[Course 1](../workstation-setup/README.md)
+[Course 1](../mod_security/README.md)
